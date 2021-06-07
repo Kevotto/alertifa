@@ -1,0 +1,128 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: rgb(88, 88, 88);
+    padding-bottom: 200px;
+}
+
+.accueil {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Block titres salons */
+.room_names {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+    .room_names a {
+        text-decoration: none;
+        margin: 5px;
+        color: white;
+        font-size: 25px;
+    }
+
+    .room_names h2:hover {
+        background-color: rgb(224, 224, 224);
+        transition-duration: .2s;
+    }
+
+.room_general h2 {
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.room_commerce h2 {
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.room_ressources h2 {
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.room_banque h2 {
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.room_gestion h2 {
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.room_informatique h2 {
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Block actualités */
+.actus {
+    background-color: rgb(71, 71, 71);
+    margin-top: 150px;
+    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(131, 131, 131) 2px;
+    width: 400px;
+    height: 700px;
+    padding: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(131, 131, 131);
+}
+
+    .articles a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .articles a:hover {
+            background-color: rgb(255, 244, 93);
+            transition-duration: .2s;
+        }
+
+.actus h2 {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+    font-size: 26px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.actus_article {
+    background-color: rgb(211, 211, 211);
+    margin: 5px;
+    width: auto;
+    height: 200px;
+}
+
+    .actus_article h3 {
+        background-color: sandybrown;
+        padding: 5px;
+    }

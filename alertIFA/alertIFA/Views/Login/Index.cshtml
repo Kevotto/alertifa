@@ -1,0 +1,39 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+@{
+    Layout = null;
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="main_block">
+        <div id="left_block">
+            <img src="~/img/png_ifa_logo.png" alt="Alert'IFA icon">
+        </div>
+        <div id="form_right">
+            <h1>Connexion</h1>
+            <div class="input_container">
+                <i class="fa fa-envelope"></i>
+                <input placeholder="Email" type="email" name="Email" id="field_email" class='input_field'>
+            </div>
+            <div class="input_container">
+                <i class="fa fa-lock"></i>
+                <input placeholder="Mot de passe" type="password" name="Password" id="field_password" class='input_field'>
+            </div>
+            <input type="submit" value="Connexion" id='input_submit' class='input_field'>
+            <span><a href="#">Mot de passe oublié ?</a></span>
+            <span id='create_account'>
+                <a href="#">Créer un compte</a>
+            </span>
+        </div>
+    </div>
+
+</body>
